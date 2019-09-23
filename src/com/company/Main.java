@@ -13,15 +13,21 @@ public class Main {
 
         Scanner inputScanner = new Scanner(System.in);
         System.out.println("Welcome to shop aplication, put how many items you want add to basket: ");
-        itemCount = inputScanner.nextInt();
+        //test
+        try {
+            itemCount = inputScanner.nextInt();
+        } catch (Exception e) {
+            throw new IllegalArgumentException("item count should be a number!");
+        }
+
         for (int i = 0; i < itemCount; i++) {
             int itemNumber = i + 1;
             System.out.println("Put " + itemNumber + " element to basket, ITEM NAME and ITEM PRICE:");
             try {
                 basket.addItemToBasket(inputScanner.next(), inputScanner.nextInt());
             } catch (Exception e) {
-                System.out.println("Invalid type!" + e);
                 exit = true;
+                throw new IllegalArgumentException("Item should have correct name and value!");
             }
         }
 
