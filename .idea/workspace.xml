@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9abb4403-f61f-4241-b355-5f40da773e3c" name="Default Changelist" comment="" />
+    <list default="true" id="9abb4403-f61f-4241-b355-5f40da773e3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shop/META-INF/shop.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BasketTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BasketTest.addItemToBasket">
+  <component name="RunManager" selected="JUnit.BasketTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="shop" />
@@ -123,10 +128,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BasketTest" />
         <item itemvalue="JUnit.BasketTest.addItemToBasket" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BasketTest.totalBasketCount" />
-        <item itemvalue="JUnit.BasketTest" />
       </list>
     </recent_temporary>
   </component>
@@ -142,10 +147,33 @@
       <updated>1569056389811</updated>
       <workItem from="1569056395940" duration="15060000" />
       <workItem from="1569261347593" duration="4519000" />
+      <workItem from="1569267204663" duration="806000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/BasketTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
